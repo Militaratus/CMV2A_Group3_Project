@@ -8,6 +8,7 @@ public class BaseObject : MonoBehaviour
     Material startingMaterial;
     Renderer rend;
     bool amActive = false;
+    bool amActivated = false;
 
     [Tooltip("Insert a Material here to be used to highlight that this gameObject is selected.")]
     public Material selectMaterial;
@@ -26,9 +27,9 @@ public class BaseObject : MonoBehaviour
 
     private void Update()
     {
-        if (amActive && Input.GetAxis("Fire1") >= 1)
+        if (Input.GetAxis("Fire1") == 0)
         {
-            ObjectAction();
+            amActivated = false;
         }
 
         if (Input.GetAxis("Fire2") >= 1)
@@ -54,6 +55,12 @@ public class BaseObject : MonoBehaviour
     {
         amActive = true;
         rend.material = selectMaterial;
+
+        if (Input.GetAxis("Fire1") >= 1 && !amActivated)
+        {
+            amActivated = true;
+            ObjectAction();
+        }
     }
 
     public virtual void ObjectAction()

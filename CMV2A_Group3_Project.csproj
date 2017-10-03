@@ -231,7 +231,10 @@
     <Compile Include="Assets\Scripts\Internal\BaseObject.cs" />
     <Compile Include="Assets\Scripts\Internal\Input_LookAt.cs" />
     <Compile Include="Assets\Scripts\Internal\SimpleSmoothMouseLook.cs" />
+    <Compile Include="Assets\Scripts\Internal\Utilities.cs" />
+    <Compile Include="Assets\Scripts\Objects\LaptopNext.cs" />
     <Compile Include="Assets\Scripts\Objects\LaptopObject.cs" />
+    <Compile Include="Assets\Scripts\Objects\LaptopText.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AudioMixers\AddSoundsAndMixersHere.txt" />
