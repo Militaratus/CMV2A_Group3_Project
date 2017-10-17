@@ -247,6 +247,9 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -273,13 +276,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="CMV2A_Group3_Project.Plugins.csproj">
-      <Project>{4DAEAE06-CBA6-3A76-D8B0-7CF6E61CA3D0}</Project>
-      <Name>CMV2A_Group3_Project.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="CMV2A_Group3_Project.csproj">
       <Project>{5C2810F7-9E68-E4F7-9B39-8A86995681CE}</Project>
       <Name>CMV2A_Group3_Project</Name>
+    </ProjectReference>
+    <ProjectReference Include="CMV2A_Group3_Project.Plugins.csproj">
+      <Project>{4DAEAE06-CBA6-3A76-D8B0-7CF6E61CA3D0}</Project>
+      <Name>CMV2A_Group3_Project.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

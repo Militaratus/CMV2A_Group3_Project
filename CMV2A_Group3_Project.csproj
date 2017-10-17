@@ -228,13 +228,19 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Internal\BaseCP.cs" />
     <Compile Include="Assets\Scripts\Internal\BaseObject.cs" />
     <Compile Include="Assets\Scripts\Internal\Input_LookAt.cs" />
     <Compile Include="Assets\Scripts\Internal\SimpleSmoothMouseLook.cs" />
     <Compile Include="Assets\Scripts\Internal\Utilities.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\TranslationManager.cs" />
     <Compile Include="Assets\Scripts\Objects\LaptopNext.cs" />
     <Compile Include="Assets\Scripts\Objects\LaptopObject.cs" />
     <Compile Include="Assets\Scripts\Objects\LaptopText.cs" />
+    <Compile Include="Assets\Scripts\Objects\LookAtText.cs" />
+    <Compile Include="Assets\Scripts\Objects\ModelView.cs" />
+    <Compile Include="Assets\Scripts\Objects\Phone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AudioMixers\AddSoundsAndMixersHere.txt" />

@@ -5,6 +5,7 @@ using UnityEngine;
 public class LaptopText : MonoBehaviour
 {
     // Interal
+    TranslationManager managerTranslate;
     int emailCount = 0;
     TextMesh myText;
 
@@ -14,19 +15,19 @@ public class LaptopText : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
+        managerTranslate = GameObject.Find("__Managers").GetComponent<TranslationManager>();
+
         myText = GetComponent<TextMesh>();
 
         if (emailMessages.Length == 1)
         {
-            myText.text = "Beste burgermeester, \n" + 
-                "\n" + 
-                "u heeft [ 1 ] bericht.";
+            managerTranslate.Translation(myText, "email_welcome_1");
         }
         else
         {
-            myText.text = "Beste burgermeester, \n" +
-                "\n" +
-                "u heeft [ " + emailMessages.Length + " ] berichten.";
+            managerTranslate.Translation(myText, "email_welcome_start");
+            myText.text = myText.text + emailMessages.Length;
+            managerTranslate.Translation(myText, "email_welcome_end", true);
         }
     }
 
