@@ -1,20 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Networking;
 
 public class TranslationManager : MonoBehaviour
 {
-    public void Translation(TextMesh activeText, string key, bool noReplace = false)
+    public void Translation(Text activeText, string key, bool noReplace = false)
     {
         StartCoroutine(GetText(activeText, key, noReplace));
     }
 
-    IEnumerator GetText(TextMesh activeText, string key, bool noReplace = false)
+    IEnumerator GetText(Text activeText, string key, bool noReplace = false)
     {
         string translatedText = "";
         UnityWebRequest www = UnityWebRequest.Get("http://www.jarednealon.com/VR_Project/GetTranslation.php?myform_hash=hashcode&myform_translationKey=" + key);
-        yield return www.Send();
+        yield return www.SendWebRequest();
 
         if (www.isNetworkError)
         {
