@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 16945b1de6138b24fbff282eee601033
+timeCreated: 1509542210
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 1
+    100002: 2
+    100004: 3
+    100006: //RootNode
+    100008: House ROw
+    100010: HR1.1
+    100012: HR2
+    100014: HR2.001
+    100016: HR2.002
+    100018: HR2.003
+    100020: HR2.004
+    100022: LOD_1
+    100024: Map
+    100026: STADHUIS
+    100028: Wall no Door/Show Window.002
+    400000: 1
+    400002: 2
+    400004: 3
+    400006: //RootNode
+    400008: House ROw
+    400010: HR1.1
+    400012: HR2
+    400014: HR2.001
+    400016: HR2.002
+    400018: HR2.003
+    400020: HR2.004
+    400022: LOD_1
+    400024: Map
+    400026: STADHUIS
+    400028: Wall no Door/Show Window.002
+    2300000: 1
+    2300002: 2
+    2300004: 3
+    2300006: House ROw
+    2300008: HR1.1
+    2300010: HR2
+    2300012: HR2.001
+    2300014: HR2.002
+    2300016: HR2.003
+    2300018: HR2.004
+    2300020: LOD_1
+    2300022: Map
+    2300024: STADHUIS
+    2300026: Wall no Door/Show Window.002
+    3300000: 1
+    3300002: 2
+    3300004: 3
+    3300006: House ROw
+    3300008: HR1.1
+    3300010: HR2
+    3300012: HR2.001
+    3300014: HR2.002
+    3300016: HR2.003
+    3300018: HR2.004
+    3300020: LOD_1
+    3300022: Map
+    3300024: STADHUIS
+    3300026: Wall no Door/Show Window.002
+    4300000: HR2.004
+    4300002: HR2.003
+    4300004: HR2.002
+    4300006: HR2.001
+    4300008: HR2
+    4300010: HR1.1
+    4300012: 3
+    4300014: 2
+    4300016: Wall no Door/Show Window.002
+    4300018: 1
+    4300020: Map
+    4300022: LOD_1
+    4300024: House ROw
+    4300026: STADHUIS
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building1_Blue
+    second: {fileID: 2100000, guid: e987d478a99b2094da6e7fe57d502491, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building1_Blue_Transparent
+    second: {fileID: 2100000, guid: 432619d9a2fc3014fbcd838e82cc8602, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building1_Brown
+    second: {fileID: 2100000, guid: a6a80cc0637e76641a8ebfc764c498e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building1_Coral
+    second: {fileID: 2100000, guid: 8e44c4553ef828041ac945173500b3fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building1_DarkBlue
+    second: {fileID: 2100000, guid: 24ee7dabeb7a39c4893561841a4fab03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building1_White
+    second: {fileID: 2100000, guid: 9dd114ff1bc021d48911cbaf4490da1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building2_Gold
+    second: {fileID: 2100000, guid: 34f098d2e67e4d541acaad0ff79aff24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building2_Red
+    second: {fileID: 2100000, guid: 803d1e36f1467d0489b76319b30731b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building2_White
+    second: {fileID: 2100000, guid: 777a0b5b71190c64380d3783777b2344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building3_Pink
+    second: {fileID: 2100000, guid: 3e20ca8a2bc7b764ab585e30511e8200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building3_Purple
+    second: {fileID: 2100000, guid: 66b8117f7b8dd9b40a6f8e746b98e7b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building3_White
+    second: {fileID: 2100000, guid: 956add67496da264cbf4693bbe270e7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Map_Concrete
+    second: {fileID: 2100000, guid: 6eaba4bc77bc0d0459af1d9152f134c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Map_Streets
+    second: {fileID: 2100000, guid: 2fcada0376b42f144858624e301a971b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Martini_Brown
+    second: {fileID: 2100000, guid: 9fb85c5679f357a439c7d49795333543, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Martini_Dark
+    second: {fileID: 2100000, guid: c68979c348c3472459500eae622892b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Martini_DarkBRown
+    second: {fileID: 2100000, guid: 545d0b103f8f706499a89dbdab1f4cd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Martini_DarkGreen
+    second: {fileID: 2100000, guid: 4d886459aae25224fa75b2fa7ef22e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Martini_Green
+    second: {fileID: 2100000, guid: ef712d47611cf2242947490e2904aeb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Martini_MidBrown
+    second: {fileID: 2100000, guid: e7302dbd45d6032469b65d3b071b2f32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Martini_NeoGoldio
+    second: {fileID: 2100000, guid: 6eb6cd5d165abdb418a492e53ef4f6d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Martini_OLdGold
+    second: {fileID: 2100000, guid: ec0dbf7ade74b334ab06b8ea1cfdd6eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stad_Brown
+    second: {fileID: 2100000, guid: e4ea13196e299c34a8cf5049741738d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stad_Burgundy
+    second: {fileID: 2100000, guid: d81af54bbea487f438ab2928b30a4737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stad_DarkBLue
+    second: {fileID: 2100000, guid: b90c1d19c7202444586015f7f049270f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stad_Ew
+    second: {fileID: 2100000, guid: 28ebae6f13af8c14496d83e14832139d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stad_Grey
+    second: {fileID: 2100000, guid: c6836877779177b45b51f3ffd6208d99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stad_LightBLue
+    second: {fileID: 2100000, guid: f22b4be4b0d89cc4b9ffab6ea1aeea1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stad_Purple
+    second: {fileID: 2100000, guid: 9cc870de20ec18943a67d03bfd5cc8cb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

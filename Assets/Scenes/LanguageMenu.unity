@@ -565,6 +565,18 @@ Prefab:
       propertyPath: m_SceneToLoad
       value: Office
       objectReference: {fileID: 0}
+    - target: {fileID: 4944298738577368, guid: aba9207e4f0cceb4baebc1393c1002a6, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944298738577368, guid: aba9207e4f0cceb4baebc1393c1002a6, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944298738577368, guid: aba9207e4f0cceb4baebc1393c1002a6, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aba9207e4f0cceb4baebc1393c1002a6, type: 2}
   m_IsPrefabParent: 0
@@ -649,6 +661,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4486933141218040, guid: 42c2cbae597a35d4999cb74ffff1bc0b, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486933141218040, guid: 42c2cbae597a35d4999cb74ffff1bc0b, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486933141218040, guid: 42c2cbae597a35d4999cb74ffff1bc0b, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 42c2cbae597a35d4999cb74ffff1bc0b, type: 2}
   m_IsPrefabParent: 0
@@ -694,7 +718,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4507379475932190, guid: 975c7c5f93bd9d3419ee742ed61bfe8e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 4507379475932190, guid: 975c7c5f93bd9d3419ee742ed61bfe8e, type: 2}
       propertyPath: m_LocalPosition.z

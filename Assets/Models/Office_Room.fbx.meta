@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 93535f62546b15c478fb0eaafd2cd8fb
+timeCreated: 1509531225
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Circle
+    100002: Cube
+    100004: Cube.001
+    100006: Cube.002
+    100008: Cube.003
+    100010: Folder
+    100012: //RootNode
+    100014: Plane
+    100016: Plane.001
+    100018: Plane.002
+    100020: Plane.003
+    100022: Plane.004
+    400000: Circle
+    400002: Cube
+    400004: Cube.001
+    400006: Cube.002
+    400008: Cube.003
+    400010: Folder
+    400012: //RootNode
+    400014: Plane
+    400016: Plane.001
+    400018: Plane.002
+    400020: Plane.003
+    400022: Plane.004
+    2300000: Circle
+    2300002: Cube
+    2300004: Cube.001
+    2300006: Cube.002
+    2300008: Cube.003
+    2300010: Folder
+    2300012: Plane
+    2300014: Plane.001
+    2300016: Plane.002
+    2300018: Plane.003
+    2300020: Plane.004
+    3300000: Circle
+    3300002: Cube
+    3300004: Cube.001
+    3300006: Cube.002
+    3300008: Cube.003
+    3300010: Folder
+    3300012: Plane
+    3300014: Plane.001
+    3300016: Plane.002
+    3300018: Plane.003
+    3300020: Plane.004
+    4300000: Plane.004
+    4300002: Cube
+    4300004: Plane.002
+    4300006: Circle
+    4300008: Plane
+    4300010: Plane.001
+    4300012: Plane.003
+    4300014: Cube.001
+    4300016: Cube.002
+    4300018: Cube.003
+    4300020: Folder
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Metal
+    second: {fileID: 2100000, guid: 9455097de307c7744a0be2d134e3c87e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desk_2
+    second: {fileID: 2100000, guid: ce0acd98b3bc61d4ab0accf67a6ec10a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Folder.004
+    second: {fileID: 2100000, guid: 59eddc4854d58ca46b3e09b6dfa70fb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Label.002
+    second: {fileID: 2100000, guid: 4cbd3f4906a99f24f9890b260265669c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light Metal
+    second: {fileID: 2100000, guid: d3a8b0ecb7c92334ea8f6c23d48eebf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 5c46d09e2c9cc464c825ee08866851eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: c478bb7100a4a85488e9bea4e547a917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: a9d7eff9af3b46f47b648d437c5a3550, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Chairs
+    second: {fileID: 2100000, guid: e964e4d5e102d9242a12182f0c1daf34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Couch
+    second: {fileID: 2100000, guid: bbd3026555b16b648a359d10d6936b3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Door_1
+    second: {fileID: 2100000, guid: f9e8edfaf57215a4c9f878126f0598f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Door_2
+    second: {fileID: 2100000, guid: 563ec9178197ba44a8d2f7eb8029c731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Drawers
+    second: {fileID: 2100000, guid: fa9fd03319bc26f45b61db26a83ae60d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Floor
+    second: {fileID: 2100000, guid: f744eaeb2eb2bb248926e8bc2a9a16d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Phome_2
+    second: {fileID: 2100000, guid: 18989cf26df4c8d4d872e8f0dd4c7d9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Phone
+    second: {fileID: 2100000, guid: 7abd04c0e4632914cad56c0aa1b8ed87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_TV
+    second: {fileID: 2100000, guid: b22e15dedddca5541b6da612c5a5be19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_Window
+    second: {fileID: 2100000, guid: 930ecbaad5ff3ab42ae796d06257d169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Office_walls
+    second: {fileID: 2100000, guid: 13b9003d0ba3f4f4186cb36d16e1870d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper_Black.001
+    second: {fileID: 2100000, guid: f2c37ed7d070f614db445249beeb6975, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper_White.001
+    second: {fileID: 2100000, guid: c876eb12def56854ebcd79ab5413f27d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant_Dirt
+    second: {fileID: 2100000, guid: 40a4e12edb7af624885ea46d13725627, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant_Leaf
+    second: {fileID: 2100000, guid: 45b22b729a0749545a6d10fb06454f10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant_Pot
+    second: {fileID: 2100000, guid: 01b28402c7c03a247a5d038e30c52909, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant_Wood
+    second: {fileID: 2100000, guid: e906f853b30c9b84189019ef3af8251b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red Button
+    second: {fileID: 2100000, guid: 8d97de81a9cf90f4d9d2dc60872d56c1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

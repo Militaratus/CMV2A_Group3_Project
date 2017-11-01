@@ -9,6 +9,7 @@ public class LaptopExit : BaseItem
     // Use this for initialization
     public override void ActivateButton()
     {
+        m_GazeOver = false;
         laptop.ToggleEmailMenu();
     }
 }

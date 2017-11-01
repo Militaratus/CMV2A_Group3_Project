@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class LaptopItem : BaseItem
 {
-    public Transform slider;
-    public Transform menu;
+    public GameObject slider;
+    public GameObject menu;
+    public GameObject screen;
 
     private bool activated;
 
@@ -19,14 +20,16 @@ public class LaptopItem : BaseItem
     {
         if (!activated)
         {
-            slider.gameObject.SetActive(true);
-            menu.gameObject.SetActive(true);
+            slider.SetActive(true);
+            menu.SetActive(true);
+            screen.SetActive(true);
             activated = true;
         }
         else
         {
-            slider.gameObject.SetActive(false);
-            menu.gameObject.SetActive(false);
+            slider.SetActive(false);
+            menu.SetActive(false);
+            screen.SetActive(false);
             activated = false;
         }
     }

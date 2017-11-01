@@ -7,7 +7,7 @@ public class BaseItem : MonoBehaviour
 {
     [SerializeField] private SelectionRadial m_SelectionRadial;         // This controls when the selection is complete.
     [SerializeField] private VRInteractiveItem m_InteractiveItem;       // The interactive item for where the user should click to load the level.
-    private bool m_GazeOver;                                            // Whether the user is looking at the VRInteractiveItem currently.
+    internal bool m_GazeOver;                                            // Whether the user is looking at the VRInteractiveItem currently.
 
 
     private void OnEnable()
@@ -48,9 +48,11 @@ public class BaseItem : MonoBehaviour
     {
         // If the user is looking at the rendering of the scene when the radial's selection finishes, activate the button.
         if (m_GazeOver)
+        {
             ActivateButton();
+            m_SelectionRadial.Show();
+        } 
     }
-
 
     public virtual void ActivateButton()
     {

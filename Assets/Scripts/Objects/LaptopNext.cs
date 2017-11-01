@@ -10,9 +10,6 @@ public class LaptopNext : BaseItem
     // Use this for initialization
     public override void ActivateButton()
     {
-        if (laptopText)
-        {
-            laptopText.NextMessage();
-        }
+        laptopText.NextMessage();
     }
 }

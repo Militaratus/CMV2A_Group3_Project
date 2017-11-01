@@ -233,6 +233,7 @@
     <Compile Include="Assets\Scripts\Internal\Utilities.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\TranslationManager.cs" />
+    <Compile Include="Assets\Scripts\Objects\BuildingItem.cs" />
     <Compile Include="Assets\Scripts\Objects\LaptopExit.cs" />
     <Compile Include="Assets\Scripts\Objects\LaptopItem.cs" />
     <Compile Include="Assets\Scripts\Objects\LaptopNext.cs" />
@@ -241,6 +242,7 @@
     <Compile Include="Assets\Scripts\Objects\LookAtText.cs" />
     <Compile Include="Assets\Scripts\Objects\ModelView.cs" />
     <Compile Include="Assets\Scripts\Objects\Phone.cs" />
+    <Compile Include="Assets\Scripts\Objects\PhoneItem.cs" />
     <Compile Include="Assets\VRStandardAssets\Scripts\IntroManager.cs" />
     <Compile Include="Assets\VRStandardAssets\Scripts\Menu\MenuButton.cs" />
     <Compile Include="Assets\VRStandardAssets\Scripts\Menu\MenuItemPopout.cs" />
@@ -249,6 +251,7 @@
     <Compile Include="Assets\VRStandardAssets\Scripts\Utils\InputWarnings.cs" />
     <Compile Include="Assets\VRStandardAssets\Scripts\Utils\PlatformDependentText.cs" />
     <Compile Include="Assets\VRStandardAssets\Scripts\Utils\Reticle.cs" />
+    <Compile Include="Assets\VRStandardAssets\Scripts\Utils\ReturnToMainMenu.cs" />
     <Compile Include="Assets\VRStandardAssets\Scripts\Utils\SelectionRadial.cs" />
     <Compile Include="Assets\VRStandardAssets\Scripts\Utils\SelectionSlider.cs" />
     <Compile Include="Assets\VRStandardAssets\Scripts\Utils\UIFader.cs" />

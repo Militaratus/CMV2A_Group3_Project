@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 114822586192639358}
   - component: {fileID: 114941217121288736}
   - component: {fileID: 114141993527295488}
+  - component: {fileID: 114821781219875246}
   - component: {fileID: 114848723892063116}
   m_Layer: 0
   m_Name: MainCamera
@@ -368,6 +369,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Canvas: {fileID: 223652802954785168}
+--- !u!114 &114821781219875246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656796310072032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298128446778c624f9fd0effb1285f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MenuSceneName: Office
+  m_VRInput: {fileID: 114233754373326204}
+  m_VRCameraFade: {fileID: 114141993527295488}
 --- !u!114 &114822586192639358
 MonoBehaviour:
   m_ObjectHideFlags: 1
