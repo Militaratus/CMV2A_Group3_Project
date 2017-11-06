@@ -2,38 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Networking;
 
 public class TranslationManager : MonoBehaviour
 {
-    public void Translation(Text activeText, string key, bool noReplace = false)
+    private DataService db;
+
+    private void Start()
     {
-        StartCoroutine(GetText(activeText, key, noReplace));
+        db = new DataService("existing.db");
     }
 
-    IEnumerator GetText(Text activeText, string key, bool noReplace = false)
+    public void Translation(Text activeText, string key)
     {
-        string translatedText = "";
-        UnityWebRequest www = UnityWebRequest.Get("http://www.jarednealon.com/VR_Project/GetTranslation.php?myform_hash=hashcode&myform_translationKey=" + key);
-        yield return www.SendWebRequest();
 
-        if (www.isNetworkError)
+        if (db == null)
         {
-            translatedText = www.error;
-        }
-        else
-        {
-            translatedText = www.downloadHandler.text;
+            db = new DataService("existing.db");
         }
 
-        yield return null;
-        if (noReplace)
-        {
-            activeText.text = activeText.text + translatedText;
-        }
-        else
-        {
-            activeText.text = translatedText;
-        }
+        activeText.text = db.GetDutch(key);
     }
 }

@@ -14,6 +14,31 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: House1_Base
+    second: {fileID: 2100000, guid: 798b5ff250f54404baccf823f9a7546f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House1_Blue
+    second: {fileID: 2100000, guid: c79b3e6e840f61b44b91f177c87e0513, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House1_Brown
+    second: {fileID: 2100000, guid: 243aba3f38cd38a47b193c9aa0e6e91f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House1_Grass
+    second: {fileID: 2100000, guid: 436da3b7ba40bb449acd0afe09cd6692, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House1_Window
+    second: {fileID: 2100000, guid: 03980d57be086704aaac77196363cd8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material
     second: {fileID: 2100000, guid: 984f533237227e34f8b349d8bef035a7, type: 2}
   - first:
@@ -21,6 +46,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Material.001
     second: {fileID: 2100000, guid: 5c46d09e2c9cc464c825ee08866851eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 9cc8303290522084784641572efc8557, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -53,10 +83,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -70,10 +100,10 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
-    tangentImportMode: 3
+    normalImportMode: 2
+    tangentImportMode: 2
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

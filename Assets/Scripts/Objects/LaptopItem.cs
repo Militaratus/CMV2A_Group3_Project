@@ -8,11 +8,15 @@ public class LaptopItem : BaseItem
     public GameObject menu;
     public GameObject screen;
 
-    private bool activated;
+    public FolderItem folderItem;
+    public bool activated;
 
 	// Use this for initialization
 	public override void ActivateButton()
     {
+        if (folderItem.activated)
+            folderItem.ToggleFolderMenu();
+
         ToggleEmailMenu();
     }
 

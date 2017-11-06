@@ -10,7 +10,6 @@ public class LaptopText : MonoBehaviour
     int emailCount = 0;
     public Text myText;
 
-    [TextArea(1, 10)]
     public string[] emailMessages;
 
 	// Use this for initialization
