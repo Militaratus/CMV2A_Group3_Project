@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: a5661438a8e06fd42856eaa73bdf0236
+timeCreated: 1510079422
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: HOUSES
+    100002: HOUSES_MeshPart0
+    100004: HOUSES_MeshPart1
+    100006: HOUSES_MeshPart2
+    100008: HOUSES_MeshPart3
+    100010: HOUSES_MeshPart4
+    100012: HOUSES_MeshPart5
+    100014: HOUSES_MeshPart6
+    100016: MAP FIXED OBJECTS
+    100018: //RootNode
+    100020: TREES
+    100022: TREES_MeshPart0
+    100024: TREES_MeshPart1
+    400000: HOUSES
+    400002: HOUSES_MeshPart0
+    400004: HOUSES_MeshPart1
+    400006: HOUSES_MeshPart2
+    400008: HOUSES_MeshPart3
+    400010: HOUSES_MeshPart4
+    400012: HOUSES_MeshPart5
+    400014: HOUSES_MeshPart6
+    400016: MAP FIXED OBJECTS
+    400018: //RootNode
+    400020: TREES
+    400022: TREES_MeshPart0
+    400024: TREES_MeshPart1
+    2300000: HOUSES_MeshPart0
+    2300002: HOUSES_MeshPart1
+    2300004: HOUSES_MeshPart2
+    2300006: HOUSES_MeshPart3
+    2300008: HOUSES_MeshPart4
+    2300010: HOUSES_MeshPart5
+    2300012: HOUSES_MeshPart6
+    2300014: MAP FIXED OBJECTS
+    2300016: TREES_MeshPart0
+    2300018: TREES_MeshPart1
+    3300000: HOUSES_MeshPart0
+    3300002: HOUSES_MeshPart1
+    3300004: HOUSES_MeshPart2
+    3300006: HOUSES_MeshPart3
+    3300008: HOUSES_MeshPart4
+    3300010: HOUSES_MeshPart5
+    3300012: HOUSES_MeshPart6
+    3300014: MAP FIXED OBJECTS
+    3300016: TREES_MeshPart0
+    3300018: TREES_MeshPart1
+    4300000: TREES_MeshPart0
+    4300002: TREES_MeshPart1
+    4300004: HOUSES_MeshPart0
+    4300006: HOUSES_MeshPart1
+    4300008: HOUSES_MeshPart2
+    4300010: HOUSES_MeshPart3
+    4300012: HOUSES_MeshPart4
+    4300014: HOUSES_MeshPart5
+    4300016: HOUSES_MeshPart6
+    4300018: MAP FIXED OBJECTS
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aldi_1
+    second: {fileID: 2100000, guid: 794bfeb9be2a4754cb8022de50f00ab6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aldi_2
+    second: {fileID: 2100000, guid: 34a21bf9d5d84d1488da8a949e9c5f82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aldi_3
+    second: {fileID: 2100000, guid: 2d1a24879d65ce44e8c3379843e63acf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aldi_4
+    second: {fileID: 2100000, guid: eaeb451bdf5ea6844b6192f6be8b9e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aldi_5
+    second: {fileID: 2100000, guid: 4759bb2f0c8859d46a864df23ffd7304, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bakery.001
+    second: {fileID: 2100000, guid: 720cca82836dafa4e97e70aada6d841c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bakery_2.001
+    second: {fileID: 2100000, guid: 95496a0bf3a0a694897ff6da496fcb76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bakery_Bread
+    second: {fileID: 2100000, guid: 25f0223e3611bb94a9fedaa911bda235, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bakery_Doof
+    second: {fileID: 2100000, guid: 8602838473fd40941a9cbeb3be5b24d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bakery_Sign.001
+    second: {fileID: 2100000, guid: 11eafd15af1e9ba42be1a82a8c36e237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store
+    second: {fileID: 2100000, guid: d802446dfb4ace142aa74f35f2676da9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_2
+    second: {fileID: 2100000, guid: dfbbc5653aa2b734eadc3161c9dbfbcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_Book_1
+    second: {fileID: 2100000, guid: 02d89e41c4f454e4c97daf4b64628e6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_Book_2
+    second: {fileID: 2100000, guid: c6e268211e2afc74b87be5e1ccbdae76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_Book_3
+    second: {fileID: 2100000, guid: f55adacdbb75df24b81d26e586898a0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_Book_4
+    second: {fileID: 2100000, guid: ff4553a1f22adaa4da7b2124a04c4a0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_Door
+    second: {fileID: 2100000, guid: accc2c833423d6a4ea9f3a1059f0224b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_Glass.001
+    second: {fileID: 2100000, guid: 188b83c5dc479714ca40e0b19ef19270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_Glass.002
+    second: {fileID: 2100000, guid: 4874b06b86fc7af44824ab7483f9448a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_Sign
+    second: {fileID: 2100000, guid: 86e39c1687d439440bdcec5a69e8884c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Store_Text
+    second: {fileID: 2100000, guid: b1bae300de3b51048ac77bb1a68cec87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLUSTER_BARK
+    second: {fileID: 2100000, guid: 9895529073c31f6449e6a313c02a304b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CLUSTER_LEAVES
+    second: {fileID: 2100000, guid: 1bd6dd9de5dc9e04882f9d0666cf8f13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe_Building
+    second: {fileID: 2100000, guid: b052d5a9f6a381a4e91d84ec5326aa91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe_Building_2
+    second: {fileID: 2100000, guid: 5a9131b7a9f35134e8de4e10b589060a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe_Furniture
+    second: {fileID: 2100000, guid: 8bd5b8a6161078b4aa69cd70425f58da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe_Glass
+    second: {fileID: 2100000, guid: cd98f5dc82b2d6e4d8f9daa91fe697a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe_Sign
+    second: {fileID: 2100000, guid: 8c4ab4e64c2f4194493dcd7de180a70a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe_Sunblind_1
+    second: {fileID: 2100000, guid: e9aadd2a2cfbd4749acd8a4889ce77ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe_Sunblind_2
+    second: {fileID: 2100000, guid: 4455c460343b2cc498f0e85a3a200642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe_Text
+    second: {fileID: 2100000, guid: 3c70fb049541f684b9d68e8d70c0240e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cafe_Window_Frames
+    second: {fileID: 2100000, guid: cc807cb0781e14e4bbd3eb66c54115d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CommCent_Black
+    second: {fileID: 2100000, guid: 33045f3dd5e702342bc98984033ccaa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CommCent_Brown
+    second: {fileID: 2100000, guid: e04e0b1ab7ed6f54f84a4a1a7917bf77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CommCent_Roof
+    second: {fileID: 2100000, guid: 8ded5ea1055a9bc43bc532c33d70971e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CommCent_White
+    second: {fileID: 2100000, guid: badf60de62791aa4c8ec2a1e3127f439, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Building
+    second: {fileID: 2100000, guid: 6a3dc63681a59914eb0eb8f98d0565af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Bushes
+    second: {fileID: 2100000, guid: ca96e45195cec7b429153edf2d45f2d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Door
+    second: {fileID: 2100000, guid: 0597aa6d23a3bd946b5c2fb2e7723324, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Flower_Blue
+    second: {fileID: 2100000, guid: 01583aa0bfb65124fa77ef182dd1a771, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Flower_Green
+    second: {fileID: 2100000, guid: c65342ef9d3694840880b1af9838c351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Flower_Pink
+    second: {fileID: 2100000, guid: ec7358eb8fadbbb4d804183fed045884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Flower_Red
+    second: {fileID: 2100000, guid: c126d6370406a8340aa5722b61122ef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Flower_White
+    second: {fileID: 2100000, guid: af600bb16f310eb48bd620b2209fbbf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Flower_Yellow
+    second: {fileID: 2100000, guid: 29926658c8bfaca4aa85df3d84a983f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Glass
+    second: {fileID: 2100000, guid: 94c365a75ae02be4b9ba7ea0e5bef558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Pots
+    second: {fileID: 2100000, guid: 07e3bbe0ddf17fd45802c9ec890aca2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Sign
+    second: {fileID: 2100000, guid: db4f29217c28fe649889d49576881df8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Sunblind
+    second: {fileID: 2100000, guid: 9ee47989ae3bb434e915536484099be3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Text
+    second: {fileID: 2100000, guid: 963401590536092418f3d9e16cee3295, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flowers_Window_Frame
+    second: {fileID: 2100000, guid: a3b33327730a8ee49a1ffaaf7bd97807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Apples
+    second: {fileID: 2100000, guid: d09de5e069017eb4bb90aef58c405e7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Aubergine
+    second: {fileID: 2100000, guid: bb6508d5d459fcf48b429d0d592ab8ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Bread
+    second: {fileID: 2100000, guid: c5e87b9ce126d7e499ca3714c09079ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Building
+    second: {fileID: 2100000, guid: afd691063fa0cf547b13e1f0645e6611, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Building_2
+    second: {fileID: 2100000, guid: ca92a484765032a4fb4c0e7b54aa4a0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Cucumbers
+    second: {fileID: 2100000, guid: 9b4af52e4db161f489ae01cdd6f28c4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Cucumbers_2
+    second: {fileID: 2100000, guid: bf608e1380d69b1469b91c8cc2b2dd63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Door
+    second: {fileID: 2100000, guid: f84ed0c5839276c47a41dc96e83b0389, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Frames
+    second: {fileID: 2100000, guid: 79ffd65627724fd42bd7074a75dda41f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Glass
+    second: {fileID: 2100000, guid: 94e4ca95034b16741ad6293abba71037, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Oranges
+    second: {fileID: 2100000, guid: e8c5994ff1850314baf37b1808e5a69d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Sign
+    second: {fileID: 2100000, guid: d08d790a157988c4eb1b95bbf56ca84a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Stands
+    second: {fileID: 2100000, guid: 86d29af6958a5e246a7794f73e3d2124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Sunblind_1
+    second: {fileID: 2100000, guid: ded207ca37259df488db598222dd4114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Sunblind_2
+    second: {fileID: 2100000, guid: 32b364aca549fcc48afda1a8f18f40de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Text
+    second: {fileID: 2100000, guid: feb967db33f5d734cb5e961dae11b62d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groceries_Tomatos
+    second: {fileID: 2100000, guid: f1eb9d177e2ed1848be032fbb2c70ef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HCouse2_Base
+    second: {fileID: 2100000, guid: fc044f9bb87413242b9a7038715c8cb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HCouse2_Blue
+    second: {fileID: 2100000, guid: 07f0e561d41df5f4291e2a6877a60b22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HCouse2_Brown
+    second: {fileID: 2100000, guid: d341f6bf30e21ac42a8c394bed3645b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HCouse2_Name
+    second: {fileID: 2100000, guid: ebb05872709b6654d99cd04a054f801d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HCouse2_Pavement
+    second: {fileID: 2100000, guid: 269446c4c0cf9c243840748bd2ebd694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HCouse2_Plate
+    second: {fileID: 2100000, guid: 1e51b0e7b953fac49b018fdcc8681c86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HCouse2_Window
+    second: {fileID: 2100000, guid: cc1aea694fe25f74aa50c07bde656cb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HospitalS_Building
+    second: {fileID: 2100000, guid: fb824ee953f99694ca895978513b26b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HospitalS_Cross
+    second: {fileID: 2100000, guid: 0564563bb2b817d4e88ffbec51719b91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HospitalS_Glass
+    second: {fileID: 2100000, guid: 03168890390c48e4c90099b58aa3c798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HospitalS_Red
+    second: {fileID: 2100000, guid: 410aad9e34f41af4681f38db72600101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 984f533237227e34f8b349d8bef035a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SEL_BIKE ROAD
+    second: {fileID: 2100000, guid: 2ff1ebc2280ac564da0a221b0c7420cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SEL_GRASS
+    second: {fileID: 2100000, guid: 0f27643f56f93db45aacd087a242e0de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SEL_PAVEMENT
+    second: {fileID: 2100000, guid: d1884882ba3941040aae1f75356194ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SEL_STREETS
+    second: {fileID: 2100000, guid: 577a2525247e83a4092512e5e37c5925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SEL_WATER
+    second: {fileID: 2100000, guid: b1c1a08a11094ef4e85ac8402f6ca168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sunblind_1
+    second: {fileID: 2100000, guid: 71c14fb57a4b9c04d836efa08d75eaab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sunblind_2
+    second: {fileID: 2100000, guid: cf870db15d0cc884c8a00cf4cf1840ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TREE_SELWERD_BARK
+    second: {fileID: 2100000, guid: ba4f4f49b2bd2ec40ab9c3a3bc1e8213, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TREE_SELWERD_LEAVES
+    second: {fileID: 2100000, guid: 449f6e861b806e646b9d1d797dfd8760, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

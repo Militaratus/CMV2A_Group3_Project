@@ -5,9 +5,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     // Resources
-    public int money = 7500000;
-    public int power = 1000;
-    public int water = 1000;
+    public float money = 7500000;
+    public float power = 1000;
+    public float water = 1000;
 
     // People Happiness
     public float students = 50;
@@ -15,6 +15,21 @@ public class GameManager : MonoBehaviour
     public float families = 50;
     public float ancients = 50;
     public float hippies = 50;
+
+    // Buildings
+    public int chosenBuilding;
+    public int[] buildingsGM;
+
+    // Quests
+    public bool questFountain;
+    public bool questHousing;
+    public int questHousingRequirement = 0;
+
+    private void Start()
+    {
+        buildingsGM = new int[10];
+        DontDestroyOnLoad(gameObject);
+    }
 
     public void SpendMoney(int spentMoney)
     {
@@ -34,40 +49,43 @@ public class GameManager : MonoBehaviour
     public void AffectStudents(int affection)
     {
         students = students - affection;
-
-        if (students < 0)
-            students = 0;
     }
 
     public void AffectCouples(int affection)
     {
         couples = couples - affection;
-
-        if (couples < 0)
-            couples = 0;
     }
 
     public void AffectFamilies(int affection)
     {
         families = families - affection;
-
-        if (families < 0)
-            families = 0;
     }
 
     public void AffectAncients(int affection)
     {
         ancients = ancients - affection;
-
-        if (ancients < 0)
-            ancients = 0;
     }
 
     public void AffectHippies(int affection)
     {
         hippies = hippies - affection;
+    }
 
-        if (hippies < 0)
-            hippies = 0;
+    public void FountainQuest(bool complete)
+    {
+        questFountain = complete;
+    }
+
+    public void HousingQuest(bool added)
+    {
+        if (added)
+            questHousingRequirement++;
+        else
+            questHousingRequirement--;
+
+        if (questHousingRequirement >= 3)
+            questHousing = true;
+        else
+            questHousing = false;
     }
 }

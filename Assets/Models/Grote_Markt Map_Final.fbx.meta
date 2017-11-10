@@ -60,6 +60,8 @@ ModelImporter:
     100104: HOUSE ROWS 5
     100106: HOUSE ROWS 6
     100108: MAP FIXED OBJECTS
+    100110: MAP FIXED OBJECTS_MeshPart0
+    100112: MAP FIXED OBJECTS_MeshPart1
     400000: Bakery.001
     400002: Bakery.002
     400004: Bakery.003
@@ -115,6 +117,8 @@ ModelImporter:
     400104: HOUSE ROWS 5
     400106: HOUSE ROWS 6
     400108: MAP FIXED OBJECTS
+    400110: MAP FIXED OBJECTS_MeshPart0
+    400112: MAP FIXED OBJECTS_MeshPart1
     2300000: Bakery.001
     2300002: Bakery.002
     2300004: Bakery.003
@@ -167,6 +171,8 @@ ModelImporter:
     2300098: HOUSE ROWS 5
     2300100: HOUSE ROWS 6
     2300102: MAP FIXED OBJECTS
+    2300104: MAP FIXED OBJECTS_MeshPart0
+    2300106: MAP FIXED OBJECTS_MeshPart1
     3300000: Bakery.001
     3300002: Bakery.002
     3300004: Bakery.003
@@ -219,6 +225,8 @@ ModelImporter:
     3300098: HOUSE ROWS 5
     3300100: HOUSE ROWS 6
     3300102: MAP FIXED OBJECTS
+    3300104: MAP FIXED OBJECTS_MeshPart0
+    3300106: MAP FIXED OBJECTS_MeshPart1
     4300000: Flowers.003
     4300002: Bakery.003
     4300004: Cafe.008
@@ -271,6 +279,8 @@ ModelImporter:
     4300098: HOUSE ROWS 5
     4300100: HOLE HOUSE 1
     4300102: BIG APARTMENT
+    4300104: MAP FIXED OBJECTS_MeshPart0
+    4300106: MAP FIXED OBJECTS_MeshPart1
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -946,8 +956,8 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 2
-    tangentImportMode: 2
+    normalImportMode: 0
+    tangentImportMode: 4
     normalCalculationMode: 4
   importAnimation: 0
   copyAvatar: 0

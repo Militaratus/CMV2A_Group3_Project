@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class LaptopText : MonoBehaviour
 {
     // Interal
+    GameManager managerGame;
     TranslationManager managerTranslate;
     int emailCount = 0;
     public Text myText;
@@ -15,9 +16,21 @@ public class LaptopText : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
+        managerGame = GameObject.Find("__Managers").GetComponent<GameManager>();
         managerTranslate = GameObject.Find("__Managers").GetComponent<TranslationManager>();
 
         managerTranslate.Translation(myText, "email_welcome");
+
+        // Quest Messages
+        if (managerGame.questFountain == true)
+        {
+            emailMessages[0] = "scenario_1_complete";
+        }
+
+        if (managerGame.questHousing == true)
+        {
+            emailMessages[1] = "scenario_4_complete";
+        }
     }
 
     public void NextMessage()

@@ -10,21 +10,52 @@ public class BaseBuilding : MonoBehaviour
     public int costWater = 0;
 
     // Population
-    public int affectStudents;
-    public int affectCouples;
-    public int affectFamilies;
-    public int affectAncients;
-    public int affectHippies;
+    public int affectStudents = 0;
+    public int affectCouples = 0;
+    public int affectFamilies = 0;
+    public int affectAncients = 0;
+    public int affectHippies = 0;
 
-    // Use this for initialization
-    void OnEnable ()
+    // Game Manager
+    private GameManager managerGame;
+
+    public void BringMeToLife ()
     {
-		
-	}
+        if (managerGame == null)
+        {
+            managerGame = GameObject.Find("__Managers").GetComponent<GameManager>();
+        }
+
+        // Resources
+        managerGame.SpendMoney(costMoney);
+        managerGame.SpendPower(costPower);
+        managerGame.SpendWater(costWater);
+
+        // Affection
+        managerGame.AffectStudents(affectStudents);
+        managerGame.AffectCouples(affectCouples);
+        managerGame.AffectFamilies(affectFamilies);
+        managerGame.AffectAncients(affectAncients);
+        managerGame.AffectHippies(affectHippies);
+    }
 	
-	// Update is called once per frame
-	void OnDisable ()
+	public void KillMe ()
     {
-		
-	}
+        if (managerGame == null)
+        {
+            managerGame = GameObject.Find("__Managers").GetComponent<GameManager>();
+        }
+
+        // Resources
+        managerGame.SpendMoney(-costMoney);
+        managerGame.SpendPower(-costPower);
+        managerGame.SpendWater(-costWater);
+
+        // Affection
+        managerGame.AffectStudents(-affectStudents);
+        managerGame.AffectCouples(-affectCouples);
+        managerGame.AffectFamilies(-affectFamilies);
+        managerGame.AffectAncients(-affectAncients);
+        managerGame.AffectHippies(-affectHippies);
+    }
 }

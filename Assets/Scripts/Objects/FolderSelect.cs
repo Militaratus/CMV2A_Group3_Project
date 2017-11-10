@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FolderSelect : MonoBehaviour
+public class FolderSelect : BaseItem
 {
     int activeConstruction = 0;
     public GameObject[] constructions;
+
+    private GameManager managerGame;
 
     // Use this for initialization
     void Start()
@@ -18,6 +20,8 @@ public class FolderSelect : MonoBehaviour
             constructions[i].SetActive(false);
         }
         constructions[0].SetActive(true);
+
+        managerGame = GameObject.Find("__Managers").GetComponent<GameManager>();
     }
 
     public void NextBuilding()
@@ -50,5 +54,10 @@ public class FolderSelect : MonoBehaviour
         Debug.Log(activeConstruction);
 
         constructions[activeConstruction].SetActive(true);
+    }
+
+    public override void ActivateButton()
+    {
+        managerGame.chosenBuilding = activeConstruction + 1;
     }
 }
